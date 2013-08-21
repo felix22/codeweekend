@@ -1,6 +1,26 @@
 body {
-	background-color: #454e5c;/*#f9f9f9 #ecf0f1... Gree.:#09C89D*/
+	background-color: #454e5c;/*#f9f9f9 #ecf0f1... thanks joshGree.:#09C89D*/
 }
+
+@media (max-width: 500px) {
+   .login{
+   	display: none !important;
+   }
+   .login ul{
+   	display: none !important;
+   }
+   .login a{
+   	display: none !important;
+   }
+   .login li{
+   	display: none !important;
+   }
+   sup{
+   	display: none !important;
+
+   }
+   
+  }
 
 .body-bottom{
 	background-color: #ecf0f1;
