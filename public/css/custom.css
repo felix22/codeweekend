@@ -1,26 +1,6 @@
 body {
-	background-color: #454e5c;/*#f9f9f9 #ecf0f1... thanks joshGree.:#09C89D*/
+	background-color: #2e3639;/*#f9f9f9 #ecf0f1... Gree.:#09C89D*/
 }
-
-@media (max-width: 500px) {
-   .login{
-   	display: none !important;
-   }
-   .login ul{
-   	display: none !important;
-   }
-   .login a{
-   	display: none !important;
-   }
-   .login li{
-   	display: none !important;
-   }
-   sup{
-   	display: none !important;
-
-   }
-   
-  }
 
 .body-bottom{
 	background-color: #ecf0f1;
@@ -28,13 +8,16 @@ body {
 }
 .content-inner{
 
-	max-width: 650px;
+	max-width: 620px;
 	background-color: white;
 	margin: 0 auto;
 	border: 1px solid #d0d5cb;
 
 	padding-top: 20px;
 	padding-bottom: 50px;
+
+	position: relative;
+	top: -285px;
 	
 	box-shadow: 0 0 0 4px rgba(208,213,203,0.3);
 
@@ -55,6 +38,10 @@ body {
 	padding-right: 20px;
 	padding-left: 20px;
 }
+.pbtm{
+	padding-bottom: 280px !important;
+
+}
 
 .container {
 	max-width: 860px;
@@ -64,27 +51,6 @@ body {
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 50px;
-}
-
-.topp{
-	min-height: 400px;
-}
-
-sup {
-	position: relative;
-	top: 10px;
-}
-.contentcontainer {
-	max-width: 860px;
-	
-	margin: 0 auto;
-	padding-top: 28px;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 50px;
-	position: relative;
-	top: -225px;
-
 }
 
 /*Navigation Area*/
@@ -98,14 +64,14 @@ sup {
 	font-family: 'Source Sans Pro', Arial, sans-serif;
 	font-weight: 200 !important; 
 	font-size: 44px;
-	color: #454e5c;
+	color: #2e3639;
 }
 
 .logo span{
 	font-family: 'Source Sans Pro', Arial, sans-serif;
 	font-weight: 600;
 	font-size: 44px;
-	color: #454e5c;
+	color: #2e3639;
 	letter-spacing: -1px;
 }
 
@@ -128,9 +94,9 @@ sup {
 
 .login a {
 	padding: 6px 20px;
-	background-color: #454e5c;
-	color: #454e5c;
-	border: solid 1px #454e5c ;
+	background-color: #c0392b;
+	color: #ecf0f1;
+	border: solid 1px #c0392b ;
 
 	border-radius: 4px;
 	font-family: 'Source Sans Pro', Arial, sans-serif;
@@ -138,38 +104,38 @@ sup {
 	}
 
 .login a:hover{
-	background-color: #454e5c;
-		border: solid 1px #454e5c ;
+	background-color: #e74c3c;
+		border: solid 1px #e74c3c ;
 
 }
 
 .login a:active{
-			border: solid 1px #454e5c ;
+			border: solid 1px #FFE4C4 ;
 
-	background-color: #454e5c;
+	background-color: #FFE4C4;
 	color: #444;
 }
 
 .whitered {
 	padding: 6px 20px;
 	background-color: #fff !important;
-	color: #454e5c !important;
-	border: solid 2px #454e5c !important;
+	color: #2e3639 !important;
+	border: solid 2px #2e3639 !important;
 
 
 }
 
 .whitered:hover {
 	padding: 6px 20px;
-	background-color: #454e5c  !important;
+	background-color: #2e3639  !important;
 	color: #fff !important;
-	border: solid 1px #454e5c ;
+	border: solid 1px #2e3639 ;
 }
 .whitered:active {
 	padding: 6px 20px;
-	background-color: #454e5c  !important;
+	background-color: #2e3639  !important;
 	color: #fff !important;
-	border: solid 1px #454e5c !important;
+	border: solid 1px #2e3639 !important;
 }
 .dredd{
 	color: #c0392b;
@@ -225,7 +191,7 @@ font-size: 20px;}
 
 	border: 4px solid #ecf0f1;
 	
-	background-color: #454e5c; /*2e3639*/
+	background-color: #2e3639; /*2e3639*/
 	color: #fff;
 
 	padding: 20px;
