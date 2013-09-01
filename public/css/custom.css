@@ -41,6 +41,7 @@ body {
 .pbtm{
 	padding-bottom: 280px !important;
 
+
 }
 
 .container {
@@ -167,10 +168,17 @@ p{
 }
 
 .centerhead{
-		padding-bottom: 30px;
+		
 		color: #f9f9f9;
 		padding-top: 30px;
 
+}
+
+.centerh2{
+		padding-bottom: 30px;
+		color: #f9ffff!important;
+		padding-top: 10px;
+		font-weight: normal!important;
 }
 
 .contenttt p{ font-family: 'Source Sans Pro', Arial, sans-serif !important; 
