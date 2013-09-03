@@ -294,7 +294,17 @@ font-family: 'Oswald', sans-serif, Arial;
 .super1 h4{
 	color: #f9f9f9;
 	text-align: left;
+	margin: 0;
+	padding: 0;
 }
+.super1 h5{
+	color: #f9f9f9;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+
 
 .super-center{
 	margin: 0 auto;
@@ -343,4 +353,8 @@ font-family: 'Oswald', sans-serif, Arial;
 	border-radius: 1px;
 	margin-bottom: 32px;
 
+}
+
+.super1 p{
+	font-size: 14px !important;
 }
