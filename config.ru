@@ -29,18 +29,6 @@ run lambda { |env|
 }
 end
 
-map "/success" do
-run lambda { |env|
-  [
-    200, 
-    {
-      'Content-Type'  => 'text/html', 
-      'Cache-Control' => 'public, max-age=86400' 
-    },
-    File.open('public/success/index.html', File::RDONLY)
-  ]
-}
-end
 
 map "/login" do
 run lambda { |env|
@@ -64,6 +52,20 @@ run lambda { |env|
       'Cache-Control' => 'public, max-age=86400' 
     },
     File.open('public/success/index.html', File::RDONLY)
+  ]
+}
+end
+
+
+map "/apply" do
+run lambda { |env|
+  [
+    200, 
+    {
+      'Content-Type'  => 'text/html', 
+      'Cache-Control' => 'public, max-age=86400' 
+    },
+    File.open('public/apply/index.html', File::RDONLY)
   ]
 }
 end
